@@ -1,6 +1,5 @@
 # This function counts top 3 most repeated characters in a string. "difficulty: medium"
 def sort_name(word):
-    from collections import Counter
     my_dic = dict()
     my_set = set()
     for i in word:
